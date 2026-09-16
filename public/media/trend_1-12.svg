@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+<text x="450" y="36" text-anchor="middle" font-size="18" font-weight="600" fill="#3A2E2A">1-12月内容产出趋势</text>
+<rect x="362" y="48" width="12" height="12" rx="2" fill="#E0619B"/>
+<text x="380" y="59" font-size="12" fill="#6B5E58">发布量</text>
+<line x1="448" y1="54" x2="470" y2="54" stroke="#2E8B8B" stroke-width="2.5"/>
+<circle cx="459" cy="54" r="3" fill="#2E8B8B"/>
+<text x="477" y="59" font-size="12" fill="#6B5E58">爆文量</text>
+<line x1="80" y1="440.0" x2="810" y2="440.0" stroke="#F2E6EB" stroke-width="1"/>
+<text x="74" y="444.0" text-anchor="end" font-size="11" fill="#8A7A72">0</text>
+<line x1="80" y1="381.7" x2="810" y2="381.7" stroke="#F2E6EB" stroke-width="1"/>
+<text x="74" y="385.7" text-anchor="end" font-size="11" fill="#8A7A72">3,000</text>
+<line x1="80" y1="323.3" x2="810" y2="323.3" stroke="#F2E6EB" stroke-width="1"/>
+<text x="74" y="327.3" text-anchor="end" font-size="11" fill="#8A7A72">6,000</text>
+<line x1="80" y1="265.0" x2="810" y2="265.0" stroke="#F2E6EB" stroke-width="1"/>
+<text x="74" y="269.0" text-anchor="end" font-size="11" fill="#8A7A72">9,000</text>
+<line x1="80" y1="206.7" x2="810" y2="206.7" stroke="#F2E6EB" stroke-width="1"/>
+<text x="74" y="210.7" text-anchor="end" font-size="11" fill="#8A7A72">12,000</text>
+<line x1="80" y1="148.3" x2="810" y2="148.3" stroke="#F2E6EB" stroke-width="1"/>
+<text x="74" y="152.3" text-anchor="end" font-size="11" fill="#8A7A72">15,000</text>
+<line x1="80" y1="90.0" x2="810" y2="90.0" stroke="#F2E6EB" stroke-width="1"/>
+<text x="74" y="94.0" text-anchor="end" font-size="11" fill="#8A7A72">18,000</text>
+<text x="816" y="444.0" font-size="11" fill="#8A7A72">0</text>
+<text x="816" y="374.0" font-size="11" fill="#8A7A72">50</text>
+<text x="816" y="304.0" font-size="11" fill="#8A7A72">100</text>
+<text x="816" y="234.0" font-size="11" fill="#8A7A72">150</text>
+<text x="816" y="164.0" font-size="11" fill="#8A7A72">200</text>
+<text x="816" y="94.0" font-size="11" fill="#8A7A72">250</text>
+<line x1="80" y1="440" x2="810" y2="440" stroke="#D9C6CE" stroke-width="1"/>
+<line x1="80" y1="90" x2="80" y2="440" stroke="#D9C6CE" stroke-width="1"/>
+<line x1="810" y1="90" x2="810" y2="440" stroke="#D9C6CE" stroke-width="1"/>
+<text x="30" y="265" text-anchor="middle" font-size="12" fill="#6B5E58" transform="rotate(-90 30 265)">发布量</text>
+<text x="876" y="265" text-anchor="middle" font-size="12" fill="#6B5E58" transform="rotate(90 876 265)">爆文量</text>
+<rect x="95.42" y="431.19" width="30" height="8.81" rx="3" fill="#E0619B"/>
+<rect x="156.25" y="436.79" width="30" height="3.21" rx="3" fill="#E0619B"/>
+<rect x="217.08" y="425.71" width="30" height="14.29" rx="3" fill="#E0619B"/>
+<rect x="277.92" y="423.88" width="30" height="16.12" rx="3" fill="#E0619B"/>
+<rect x="338.75" y="429.89" width="30" height="10.11" rx="3" fill="#E0619B"/>
+<rect x="399.58" y="423.92" width="30" height="16.08" rx="3" fill="#E0619B"/>
+<rect x="460.42" y="412.78" width="30" height="27.22" rx="3" fill="#E0619B"/>
+<rect x="521.25" y="385.56" width="30" height="54.44" rx="3" fill="#E0619B"/>
+<rect x="582.08" y="235.83" width="30" height="204.17" rx="3" fill="#E0619B"/>
+<rect x="642.92" y="235.83" width="30" height="204.17" rx="3" fill="#E0619B"/>
+<rect x="703.75" y="105.56" width="30" height="334.44" rx="3" fill="#E0619B"/>
+<rect x="764.58" y="333.06" width="30" height="106.94" rx="3" fill="#E0619B"/>
+<path d="M 110.41666666666667 395.2 C 120.56 399.87 150.97 425.77 171.25 423.20 C 191.53 420.63 211.81 392.63 232.08 379.80 C 252.36 366.97 272.64 344.33 292.92 346.20 C 313.19 348.07 333.47 418.30 353.75 391.00 C 374.03 363.70 394.31 186.37 414.58 182.40 C 434.86 178.43 455.14 333.83 475.42 367.20 C 495.69 400.57 515.97 377.23 536.25 382.60 C 556.53 387.97 576.81 407.57 597.08 399.40 C 617.36 391.23 637.64 383.77 657.92 333.60 C 678.19 283.43 698.47 116.60 718.75 98.40 C 739.03 80.20 769.44 203.40 779.58 224.40 L 779.58 440 L 110.42 440 Z" fill="#2E8B8B" fill-opacity="0.12"/>
+<path d="M 110.41666666666667 395.2 C 120.56 399.87 150.97 425.77 171.25 423.20 C 191.53 420.63 211.81 392.63 232.08 379.80 C 252.36 366.97 272.64 344.33 292.92 346.20 C 313.19 348.07 333.47 418.30 353.75 391.00 C 374.03 363.70 394.31 186.37 414.58 182.40 C 434.86 178.43 455.14 333.83 475.42 367.20 C 495.69 400.57 515.97 377.23 536.25 382.60 C 556.53 387.97 576.81 407.57 597.08 399.40 C 617.36 391.23 637.64 383.77 657.92 333.60 C 678.19 283.43 698.47 116.60 718.75 98.40 C 739.03 80.20 769.44 203.40 779.58 224.40" fill="none" stroke="#2E8B8B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="110.42" cy="395.20" r="3" fill="#2E8B8B"/>
+<text x="110.42" y="386.2" text-anchor="middle" font-size="10" fill="#2E8B8B">32</text>
+<circle cx="171.25" cy="423.20" r="3" fill="#2E8B8B"/>
+<text x="171.25" y="414.2" text-anchor="middle" font-size="10" fill="#2E8B8B">12</text>
+<circle cx="232.08" cy="379.80" r="3" fill="#2E8B8B"/>
+<text x="232.08" y="370.8" text-anchor="middle" font-size="10" fill="#2E8B8B">43</text>
+<circle cx="292.92" cy="346.20" r="3" fill="#2E8B8B"/>
+<text x="292.92" y="337.2" text-anchor="middle" font-size="10" fill="#2E8B8B">67</text>
+<circle cx="353.75" cy="391.00" r="3" fill="#2E8B8B"/>
+<text x="353.75" y="382.0" text-anchor="middle" font-size="10" fill="#2E8B8B">35</text>
+<circle cx="414.58" cy="182.40" r="3" fill="#2E8B8B"/>
+<text x="414.58" y="173.4" text-anchor="middle" font-size="10" fill="#2E8B8B">184</text>
+<circle cx="475.42" cy="367.20" r="3" fill="#2E8B8B"/>
+<text x="475.42" y="358.2" text-anchor="middle" font-size="10" fill="#2E8B8B">52</text>
+<circle cx="536.25" cy="382.60" r="3" fill="#2E8B8B"/>
+<text x="536.25" y="373.6" text-anchor="middle" font-size="10" fill="#2E8B8B">41</text>
+<circle cx="597.08" cy="399.40" r="3" fill="#2E8B8B"/>
+<text x="597.08" y="390.4" text-anchor="middle" font-size="10" fill="#2E8B8B">29</text>
+<circle cx="657.92" cy="333.60" r="3" fill="#2E8B8B"/>
+<text x="657.92" y="324.6" text-anchor="middle" font-size="10" fill="#2E8B8B">76</text>
+<circle cx="718.75" cy="98.40" r="3" fill="#2E8B8B"/>
+<text x="718.75" y="89.4" text-anchor="middle" font-size="10" fill="#2E8B8B">244</text>
+<circle cx="779.58" cy="224.40" r="3" fill="#2E8B8B"/>
+<text x="779.58" y="215.4" text-anchor="middle" font-size="10" fill="#2E8B8B">154</text>
+<text x="110.42" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">1月</text>
+<text x="171.25" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">2月</text>
+<text x="232.08" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">3月</text>
+<text x="292.92" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">4月</text>
+<text x="353.75" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">5月</text>
+<text x="414.58" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">6月</text>
+<text x="475.42" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">7月</text>
+<text x="536.25" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">8月</text>
+<text x="597.08" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">9月</text>
+<text x="657.92" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">10月</text>
+<text x="718.75" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">11月</text>
+<text x="779.58" y="462" text-anchor="middle" font-size="12" fill="#6B5E58">12月</text>
+</svg>

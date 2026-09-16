@@ -1,0 +1,22 @@
+{
+  "name": "cui-ziyan-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "崔紫燕 · 短视频内容运营 个人作品集网站（柔粉像素风 · PC 优先 1700px 版心）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/press-start-2p": "^5.1.0",
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
