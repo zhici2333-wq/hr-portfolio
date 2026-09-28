@@ -42,8 +42,7 @@ const COVERS_BY_PROJECT = {
 // 用 CSS 变量驱动，避免 inline transform 覆盖全局 hover scale
 const COVER_TWEAKS = {
   'x11-matrix': {
-    // mini-1 原为竖屏 9:16 罗小黑图，cover + center 35% 让 cell 显示原图 31%-42% 区域，
-    // 罗小黑身体 + 文字集中区域在 cell 中部偏下，眼睛和五官靠近 cell 视觉中心
+    // mini-1 原为竖屏 9:16 罗小黑图，cover + center 35% 让 cell 显示原图 31%-42% 区域
     'mini-1': { objectFit: 'cover', objectPosition: 'center 35%' },
   },
   'x11-official': {
@@ -51,7 +50,7 @@ const COVER_TWEAKS = {
     'mini-1': { objectFit: 'cover', objectPosition: 'center center' },
   },
   'guru-overseas': {
-    'mini-2': { '--cover-scale': '1.28' }, // 1月17日竖屏图：放大去左右黑边
+    'mini-2': { '--cover-scale': '1.28' },
   },
 }
 
@@ -108,16 +107,15 @@ export default function Projects() {
                     aria-label={`查看 ${p.title} 案例视频`}
                   >
                     <div className="cover-wall">
-                      {/* 左大主图 */}
                       {(COVERS_BY_PROJECT[p.id] || [])[0] && (
                         <div className="cover-cell cover-cell--big">
                           <img className="cover-cell-img" src={(COVERS_BY_PROJECT[p.id] || [])[0]} alt="" loading="lazy" style={COVER_TWEAKS[p.id]?.big} />
                           <span className="cover-cell-play">
-                            <Play size={22} fill="currentColor" />
+                            <Play size={20} fill="currentColor" />
+                            <span className="cover-cell-play-label">点击查看案例视频</span>
                           </span>
                         </div>
                       )}
-                      {/* 右上 / 右下 两个关键数据 chip */}
                       {(p.results || []).slice(0, 2).map((r, idx) => (
                         <div key={`metric-${idx}`} className={`cover-cell cover-cell--data cover-cell--data-${idx + 1}`}>
                           <div className="cover-metric">
@@ -126,7 +124,6 @@ export default function Projects() {
                           </div>
                         </div>
                       ))}
-                      {/* 底左 / 底右 两个小方块图 */}
                       {(COVERS_BY_PROJECT[p.id] || []).slice(1, 3).map((src, idx) => {
                         const tweak = COVER_TWEAKS[p.id]?.[`mini-${idx + 1}`]
                         const cellStyle = tweak?.objectFit === 'contain' ? { background: 'var(--cream)' } : undefined
@@ -142,9 +139,7 @@ export default function Projects() {
                   <div className="project-body">
                     <div className="project-tags">
                       {p.tags.map((t) => (
-                        <span key={t} className="tag">
-                          {t}
-                        </span>
+                        <span key={t} className="tag">{t}</span>
                       ))}
                     </div>
                     <div className="project-title-row">
@@ -174,12 +169,7 @@ export default function Projects() {
 
       {videoProject && <VideoCases cases={casesFor(videoProject)} onClose={() => setVideoProject(null)} />}
       {detailProject?.id === matrixDetail.id ? (
-        <MatrixDetailModal
-          project={detailProject}
-          onClose={() => setDetailProject(null)}
-          onNavigate={setDetailProject}
-          onOpenCase={(c) => setVideoProject(detailProject)}
-        />
+        <MatrixDetailModal project={detailProject} onClose={() => setDetailProject(null)} onNavigate={setDetailProject} onOpenCase={(c) => setVideoProject(detailProject)} />
       ) : detailProject?.id === 'koc-matrix' ? (
         <KocReviewModal project={detailProject} onClose={() => setDetailProject(null)} onNavigate={setDetailProject} />
       ) : detailProject?.id === 'guru-overseas' ? (
