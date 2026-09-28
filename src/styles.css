@@ -5265,7 +5265,7 @@ a.contact-row:hover {
 
 .projects--coverwall .section-sub {
   max-width: 760px;
-  margin: 0 auto;
+  margin: 52px auto 0;
 }
 
 /* 卡片封面：bento 风格（1 大图 + 2 数据 chip + 2 小图） */
@@ -5367,23 +5367,45 @@ a.contact-row:hover {
   grid-column: 2;
 }
 
-/* 第一个 cell 上的播放图标 */
+/* 第一个 cell 上的播放按钮（胶囊 + 文字） */
 .cover-cell-play {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
-  background: rgba(255, 249, 251, 0.94);
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 22px 11px 18px;
+  border-radius: 999px;
+  background: rgba(255, 249, 251, 0.96);
   color: var(--deep);
-  display: grid;
-  place-items: center;
   border: 3px solid var(--ink);
   box-shadow: 3px 3px 0 var(--ink);
-  padding-left: 3px;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+.cover-cell-play-label { line-height: 1; }
+.project-cover--wall:hover .cover-cell-play {
+  transform: translate(-50%, -50%) translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--ink);
+}
+
+/* 响应式 */
+@media (max-width: 1200px) {
+  .cover-cell-play { font-size: 12px; padding: 8px 16px 8px 14px; }
+  .cover-metric b { font-size: 18px; }
+  .cover-metric span { font-size: 10px; }
+}
+
+@media (max-width: 760px) {
+  .cover-cell-play { font-size: 11px; padding: 7px 13px; gap: 6px; }
+  .cover-metric b { font-size: 16px; }
 }
 
 /* 响应式 */
